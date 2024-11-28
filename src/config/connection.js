@@ -1,34 +1,4 @@
-// import { createAppKit } from '@reown/appkit/react'
-// import { EthersAdapter } from '@reown/appkit-adapter-ethers'
-// import { baseSepolia, sepolia } from '@reown/appkit/networks'
 
-
-// const projectId = import.meta.env.VITE_APPKIT_PROJECT_ID;
-
-
-// const networks = [baseSepolia, sepolia]
-
-
-// const metadata = {
-//   name: 'My Website',
-//   description: 'My Website description',
-//   url: 'https://mywebsite.com', 
-//   icons: ['https://avatars.mywebsite.com/']
-// }
-
-// createAppKit({
-//   adapters: [new EthersAdapter()],
-//   networks,
-//   metadata,
-//   projectId,
-//   themeVariables: {
-//     "--w3m-accent": "#d97706",
-//     "--w3m-border-radius-master" : "1px",
-//   },
-//   features: {
-//     analytics: true 
-//   }
-// })
 
 
 import { createAppKit } from '@reown/appkit/react';
@@ -72,7 +42,7 @@ createAppKit({
   metadata,
   projectId,
   themeVariables: {
-    "--w3m-accent": "#d97706",
+    "--w3m-accent": "#3700ff ",
     "--w3m-border-radius-master": "1px",
   },
   features: {
