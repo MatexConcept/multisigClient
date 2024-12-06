@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-// import img from '../assest/contrii-removebg-preview.png'
+
 
 import useIntiateTranction from "../hooks/useInitiateTransaction";
 

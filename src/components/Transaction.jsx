@@ -84,9 +84,11 @@ const Transaction = ({ transaction = {}, index }) => {
           <h3 className="text-[#0077b6]"> Receiver Address:  <span className="text-[#ffff]"> {receiverAddress}</span></h3>
           <h3 className="text-[#0077b6]">
             {" "}
-            Signers Count: {signersCount} 
+            Signers Count: 
+           <span className="text-[#ffff]"> {signersCount} </span>
           </h3>
-          <h3> Creator: {txCreator}</h3>
+          <h3 className="text-[#0077b6]"> Creator: <span className="text-[#ffff]">{txCreator}</span></h3>
+          <h3 className="text-[#0077b6] ">IsExecuted: <span className="text-[#ffff]">{isExecuted.toString()}</span></h3>
           <AlertDialog.Root>
     <AlertDialog.Trigger>
         <Button color="#0077b6">Approve Transaction</Button>
